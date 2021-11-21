@@ -15,4 +15,4 @@ https://user-images.githubusercontent.com/81532183/142058850-6db8d905-e28f-4cd4-
 
 ## Test Instructions
 * none
-
+## do npm install and nmp install inquirer to begin!
