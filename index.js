@@ -16,7 +16,7 @@ const greeting = [
 
     },
 ];
-
+// chalk is being called once you install npm i
 // chalk is being called with letsStart
 const letsStart = chalk.greenBright(`\n
 let start a read me together
@@ -56,8 +56,6 @@ function writeToFile (answers) {
   * ${answers.use}
   ## Contributor Guidelines
   * ${answers.contributions}
-  ## Code of Conduct
-  * [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
   ## Test Instructions
   * ${answers.test}
   ## License
@@ -95,12 +93,12 @@ function promptUser() {
         {
             type: "input",
             name: "project-title",
-            message: "what is the title of your project"
+            message: "please let us know what is the title of your project"
           },
           {
             type: "input",
             name: "description",
-            message: "please let us know what you project is about"
+            message: "please let us know what your project is about"
           },
           {
             type: "input",
@@ -150,6 +148,6 @@ function promptUser() {
         }
     }
     
-    //Function call to initialize program
+    // end of code
     init();
     
